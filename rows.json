@@ -1,0 +1,360 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "5t4n-d72c",
+      "name" : "Directory Of Homeless Population By Year",
+      "attribution" : "Department of Homeless Services (DHS)",
+      "attributionLink" : "http://www.nyc.gov/html/dhs/downloads/pdf/hope_2012_presentation_web.pdf",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1359642175,
+      "description" : "Table of homeless population by Year (for years 2009 through 2012)",
+      "displayType" : "table",
+      "downloadCount" : 9198,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1536596623,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 2394038,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1359642401,
+      "publicationGroup" : 648281,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1359642177,
+      "rowsUpdatedBy" : "8b43-zkvh",
+      "tableId" : 648281,
+      "totalTimesRated" : 0,
+      "viewCount" : 5919,
+      "viewLastModified" : 1536606910,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 42245737,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 7432825,
+        "width" : 121,
+        "cachedContents" : {
+          "non_null" : 32,
+          "average" : "2010.5",
+          "largest" : "2012",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2009",
+            "count" : 20
+          }, {
+            "item" : "2010",
+            "count" : 19
+          }, {
+            "item" : "2011",
+            "count" : 18
+          }, {
+            "item" : "2012",
+            "count" : 17
+          } ],
+          "smallest" : "2009",
+          "sum" : "64336"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 42245738,
+        "name" : "Area",
+        "dataTypeName" : "text",
+        "fieldName" : "area",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7432826,
+        "width" : 182,
+        "cachedContents" : {
+          "non_null" : 32,
+          "largest" : "Total Unsheltered Individuals ",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Surface Area - Manhattan ",
+            "count" : 20
+          }, {
+            "item" : "Surface Area - Bronx ",
+            "count" : 19
+          }, {
+            "item" : "Surface Area - Brooklyn ",
+            "count" : 18
+          }, {
+            "item" : "Surface Area - Queens ",
+            "count" : 17
+          }, {
+            "item" : "Surface Area - Staten Island ",
+            "count" : 16
+          }, {
+            "item" : "Surface Total ",
+            "count" : 15
+          }, {
+            "item" : "Subways ",
+            "count" : 14
+          }, {
+            "item" : "Total Unsheltered Individuals ",
+            "count" : 13
+          } ],
+          "smallest" : "Subways "
+        },
+        "format" : { }
+      }, {
+        "id" : 42245739,
+        "name" : "Homeless Estimates",
+        "dataTypeName" : "number",
+        "fieldName" : "homeless_estimates",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 7432827,
+        "width" : 198,
+        "cachedContents" : {
+          "non_null" : 32,
+          "average" : "909.15625",
+          "largest" : "3262",
+          "null" : 0,
+          "top" : [ {
+            "item" : "777",
+            "count" : 20
+          }, {
+            "item" : "164",
+            "count" : 19
+          }, {
+            "item" : "200",
+            "count" : 18
+          }, {
+            "item" : "98",
+            "count" : 17
+          }, {
+            "item" : "121",
+            "count" : 16
+          }, {
+            "item" : "1360",
+            "count" : 15
+          }, {
+            "item" : "968",
+            "count" : 14
+          }, {
+            "item" : "2328",
+            "count" : 13
+          }, {
+            "item" : "1145",
+            "count" : 12
+          }, {
+            "item" : "174",
+            "count" : 11
+          }, {
+            "item" : "428",
+            "count" : 10
+          }, {
+            "item" : "112",
+            "count" : 9
+          }, {
+            "item" : "175",
+            "count" : 8
+          }, {
+            "item" : "2034",
+            "count" : 7
+          }, {
+            "item" : "1077",
+            "count" : 6
+          }, {
+            "item" : "3111",
+            "count" : 5
+          }, {
+            "item" : "786",
+            "count" : 4
+          }, {
+            "item" : "115",
+            "count" : 3
+          }, {
+            "item" : "242",
+            "count" : 2
+          }, {
+            "item" : "102",
+            "count" : 1
+          } ],
+          "smallest" : "86",
+          "sum" : "29093"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "filename" : "Directory_Of_Homeless_Population_By_Year.xlsx",
+          "assetId" : "1c9306b8-c890-4161-9186-668ce97aacc1",
+          "blobId" : "",
+          "name" : "Directory_Of_Homeless_Population_By_Year.xlsx"
+        } ],
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Date Made Public" : "1/31/2013",
+            "Update Frequency" : "Annually"
+          },
+          "Legislative Compliance" : {
+            "Geo-coding Attached?" : ""
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Homeless Services (DHS)"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 42245737,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "8b43-zkvh",
+        "displayName" : "Ram S.",
+        "screenName" : "Ram S.",
+        "type" : "interactive"
+      },
+      "tags" : [ "dhs", "homeless", "comparison", "population" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-w6p8_t8f2_ijs5", "00000000-0000-0000-3BB0-5C14CF1E8CAF", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Surface Area - Manhattan ", "906" ]
+, [ "row-a6v8~878u~6jzu", "00000000-0000-0000-09F2-A1E765C2DFEC", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Total Unsheltered Individuals ", "3262" ]
+, [ "row-246m-ub9x.jesj", "00000000-0000-0000-2E14-00B21C80D27A", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Subways ", "1634" ]
+, [ "row-ewg7~rvfb-hhga", "00000000-0000-0000-02F6-2A3113EBECCD", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Surface Total ", "1628" ]
+, [ "row-wb8t~g4wr_5h3p", "00000000-0000-0000-F4A2-AE30E0BDD5F0", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Surface Area - Staten Island ", "99" ]
+, [ "row-dea5~dr37-t6tb", "00000000-0000-0000-7B8A-D4A683D59216", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Surface Area - Queens ", "86" ]
+, [ "row-x92u-4k6u~nigq", "00000000-0000-0000-D12C-7EE23196D298", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Surface Area - Brooklyn ", "368" ]
+, [ "row-sn33.3xur~tqxz", "00000000-0000-0000-72A2-205FA354EFE1", 0, 1425759133, null, 1425759133, null, "{ }", "2012", "Surface Area - Bronx ", "169" ]
+, [ "row-7ezu-6pzr_qsrv", "00000000-0000-0000-4785-AAC23C143AC1", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Surface Area - Manhattan ", "786" ]
+, [ "row-9fnk_rjh4~tkn3", "00000000-0000-0000-017D-ABC44065564E", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Surface Area - Bronx ", "115" ]
+, [ "row-55iz~hiby~gy4t", "00000000-0000-0000-996B-C77CCEDD496D", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Surface Area - Brooklyn ", "242" ]
+, [ "row-t4jx.w78i~ahgm", "00000000-0000-0000-7527-3DEC4B77914D", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Surface Area - Queens ", "102" ]
+, [ "row-5seh_c5di-2unf", "00000000-0000-0000-5EAB-8DD810B2C295", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Surface Area - Staten Island ", "128" ]
+, [ "row-id2f~tqu6-85d5", "00000000-0000-0000-D49C-BDA7D3E93DEA", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Surface Total ", "1373" ]
+, [ "row-cns4-bvnv_hra9", "00000000-0000-0000-EEF9-DD9D4AC10927", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Subways ", "1275" ]
+, [ "row-8mc9_heza-7gph", "00000000-0000-0000-807B-FA936B972A65", 0, 1425759133, null, 1425759133, null, "{ }", "2011", "Total Unsheltered Individuals ", "2648" ]
+, [ "row-zbig~ys7u-fxq7", "00000000-0000-0000-E74E-C6D43BFEDC80", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Total Unsheltered Individuals ", "3111" ]
+, [ "row-rr8k~wi3b-h34u", "00000000-0000-0000-8610-958BC99661F5", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Surface Area - Manhattan ", "1145" ]
+, [ "row-a562~ay92.s6xg", "00000000-0000-0000-FE55-FD4CCA52DD0C", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Surface Area - Bronx ", "174" ]
+, [ "row-j5zr-rddr_4wvv", "00000000-0000-0000-D747-C6E4035E4ABE", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Surface Area - Brooklyn ", "428" ]
+, [ "row-jf86.uzm5.jtzw", "00000000-0000-0000-1A28-F702AA56C435", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Surface Area - Queens ", "112" ]
+, [ "row-i9i7_xm2c_rzxr", "00000000-0000-0000-4432-3F475A3CF361", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Surface Area - Staten Island ", "175" ]
+, [ "row-52rc~pphj-fm36", "00000000-0000-0000-2296-89534329463F", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Surface Total ", "2034" ]
+, [ "row-ec2q.djtv_6jm6", "00000000-0000-0000-0FE3-736D855F318B", 0, 1425759133, null, 1425759133, null, "{ }", "2010", "Subways ", "1077" ]
+, [ "row-use4.s9vi.4q34", "00000000-0000-0000-45AB-AE4AB5FF1293", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Surface Area - Manhattan ", "777" ]
+, [ "row-72ch_euua_75nt", "00000000-0000-0000-9E99-F5481964CD8A", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Total Unsheltered Individuals ", "2328" ]
+, [ "row-6x2q-jfp7~vcfz", "00000000-0000-0000-E490-66E8697C1753", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Subways ", "968" ]
+, [ "row-pidn~uzep_xguz", "00000000-0000-0000-9FED-8261F2032732", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Surface Total ", "1360" ]
+, [ "row-mpaq_nnk2.7wik", "00000000-0000-0000-5E79-A058B6E21B2B", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Surface Area - Staten Island ", "121" ]
+, [ "row-x2gd_53wv.65u8", "00000000-0000-0000-57D1-2849D9BC4854", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Surface Area - Queens ", "98" ]
+, [ "row-efjw~j8vr-2989", "00000000-0000-0000-CC50-604C0EC6681E", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Surface Area - Brooklyn ", "200" ]
+, [ "row-qrer~8irb-f45w", "00000000-0000-0000-9854-B9425A4C1CD0", 0, 1425759133, null, 1425759133, null, "{ }", "2009", "Surface Area - Bronx ", "164" ]
+ ]
+}
