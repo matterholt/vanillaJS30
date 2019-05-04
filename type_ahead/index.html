@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Type Ahead 👀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="search-form">
+        <input type="text" class="search" placeholder="City or State">
+        <ul class="suggestions">
+            <li>Filter for a city</li>
+            <li>or a state</li>
+        </ul>
+    </form>
+    <script>
+        const endpoint =
+            "https://gist.githubusercontent.com/Lwdthe1/81818d30d23f012628aac1cdf672627d/raw/2036f2ddea9ace3716ebcdaa341e0f71020d68d4/usaCities.js"
+        const city = []
+
+        fetch(endpoint)
+            .then(blob => blob.json())
+            .than(data => console.log(data))
+
+
+        console.log(city)
+
+        function findToMatch(word, weather) {
+            return city.filter(place => {
+                const regex = new RegExp(word, 'gi');
+                return (place.cities.match(regex))
+            })
+
+        }
+    </script>
+</body>
+
+</html>
